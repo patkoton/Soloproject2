@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.box {
+    max-width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    margin: 50px 0 50px 0;
+    border: 5px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.overall {
+    position: absolute;
+    left: 30%;
+}
+
+.nav {
+    width: 550px;
+    height: 55px;
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.path1 {
+    width: 24px;
+    height: 24px;
+    background: #DADADA;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.mtj {
+    width: 109px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.card-body {
+    width: 550px;
+    height: 200px;
+    background: #FFFFFF;
+}
+
+
+.imgCard {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.ses0, .ses2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.ses0 {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.ses1 {
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.ses2 {
+    align-items: center;
+    margin-top: 10px;
+}
+
+.loclogo {
+    width: 10px;
+    height: 10px;
+    background: #DADADA;
+    border-radius: 100px;
+}
+
+.location {
+    max-width: 100%;
+    height: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    text-transform: uppercase;
+    margin: 0 10px 0 10px;
+}
+
+.vog {
+    width: 106px;
+    height: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #2B283A;
+    line-height: 1px;
+}
+
+.date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 20px;
+    color: #2B283A;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 20px;
+    line-height: 15px;  
+    color: #2B283A;
+    text-align: justify;
+}
+
+.line {
+    max-width: 100%;
+    border: 1px solid #F5F5F5;
+    margin-top: 20px;
+    margin-left: 20px;
+}
